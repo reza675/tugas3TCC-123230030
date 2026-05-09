@@ -1,0 +1,12 @@
+runtime: nodejs20
+instance_class: F1
+
+handlers:
+  # Melayani file statis dari folder dist (hasil build Vite)
+  - url: /assets
+    static_dir: dist/assets
+
+  # Menangani semua rute agar diarahkan ke index.html
+  - url: /.*
+    static_files: dist/index.html
+    upload: dist/index.html
