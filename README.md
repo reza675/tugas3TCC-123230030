@@ -7,7 +7,7 @@ Proyek ini terdiri dari dua bagian utama, yaitu **Frontend (FE)** dan **Backend 
 ## Branching
 
 - **Backend (BE):** Berada di branch `tugas3-tcc-be`
-- **Frontend (FE):** Berada di branch `tugas3-tcc-be`
+- **Frontend (FE):** Berada di branch `tugas3-tcc-fe`
 
 ## Deployment
 
