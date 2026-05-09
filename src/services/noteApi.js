@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = "https://tugas3-tcc-rezarasendriya-805193520.us-central1.run.app/api/v1/notes";
+const API_BASE_URL = "https://tugas3-tcc-be-rezarasendriya-805193520.us-central1.run.app/api/v1/notes";
 
 export const getNotes = async () => {
   const response = await axios.get(API_BASE_URL);
