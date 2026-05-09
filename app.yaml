@@ -1,5 +1,5 @@
 runtime: nodejs20
-service: default
+service: fe-123230030
 
 handlers:
   - url: /
