@@ -14,7 +14,7 @@
   app.use(express.json());
 
   app.get("/", (req, res) => {
-    res.send("Notes API is running");
+    res.send("Rezarasendriya - 123230030");
   });
 
   require("./schema/Note");
