@@ -1,39 +1,37 @@
 # API Testing
-GET http://localhost:3000/ HTTP/1.1
+GET https://tugas3-tcc-be-rezarasendriya-805193520.us-central1.run.app/ HTTP/1.1
 
 ###
-# GET : All Notes
-GET http://localhost:3000/api/v1/notes HTTP/1.1
+# GET : All Notes dari Cloud SQL
+GET https://tugas3-tcc-be-rezarasendriya-805193520.us-central1.run.app/api/v1/notes HTTP/1.1
 Content-Type: application/json
 
 ###
 # GET : Note by ID
-GET http://localhost:3000/api/v1/notes/1 HTTP/1.1
+GET https://tugas3-tcc-be-rezarasendriya-805193520.us-central1.run.app/api/v1/notes/2 HTTP/1.1
 Content-Type: application/json
 
 ###
-# POST : Create Note
-POST http://localhost:3000/api/v1/notes HTTP/1.1
+# POST : Create Note baru ke Cloud SQL
+POST https://tugas3-tcc-be-rezarasendriya-805193520.us-central1.run.app/api/v1/notes HTTP/1.1
 Content-Type: application/json
 
 {
-  "judul": "THR",
-  "isi": "Masnya ga usah ya."
+  "judul": "Tugas 3 PaaS",
+  "isi": "Berhasil deploy ke Cloud Run dan simpan ke Cloud SQL."
 }
 
 ###
-# PUT : Update Note
-PUT http://localhost:3000/api/v1/notes/1 HTTP/1.1
+# PUT : Update Note berdasarkan ID
+PUT https://tugas3-tcc-be-rezarasendriya-805193520.us-central1.run.app/api/v1/notes/2 HTTP/1.1
 Content-Type: application/json
 
 {
-  "judul": "Belajar TCC",
-  "isi": "TCC Asique."
+  "judul": "Belajar TCC ",
+  "isi": "Belajar PaaS dengan Google Cloud Platform."
 }
 
 ###
-# DELETE : Delete Note
-DELETE http://localhost:3000/api/v1/notes/6 HTTP/1.1
+# DELETE : Delete Note berdasarkan ID
+DELETE https://tugas3-tcc-be-rezarasendriya-805193520.us-central1.run.app/api/v1/notes/4 HTTP/1.1
 Content-Type: application/json
-
-
